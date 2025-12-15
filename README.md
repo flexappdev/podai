@@ -2,7 +2,7 @@
 
 PodAI is a web application that gives your voice a new personality. It transforms raw audio recordings into professional podcast segments, witty monologues, or structured narratives using Google's Gemini AI.
 
-![Landing Page](https://i.imgur.com/uX8H4qj.png)
+<img width="3840" height="2400" alt="image" src="https://github.com/user-attachments/assets/84d59550-dd89-4c02-8298-f340162042cf" />
 
 ## Features
 
