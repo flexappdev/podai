@@ -61,11 +61,8 @@ PodAI is a sophisticated web application that transforms raw voice notes and aud
 
 ## 📸 Screenshots
 
-### Chat Interface
-Engage in a conversation with the specific persona, context-aware of your transcript.
-
-### Result View
-View your original transcript side-by-side with the transformed persona edition.
+![PodAI Interface](./screenshots/app-preview.png)
+*Engage in a conversation with the specific persona, context-aware of your transcript.*
 
 ---
 
