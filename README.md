@@ -21,6 +21,8 @@ PodAI is a web application that gives your voice a new personality. It transform
 
 ### 1. Choose a Persona
 Select how you want your content to be reimagined.
+<img width="2573" height="2285" alt="image" src="https://github.com/user-attachments/assets/c61ffd6f-1a7e-4c7d-964a-36035a13c5ec" />
+
 ![Persona Selection](https://i.imgur.com/3Z4jX8a.png)
 
 ### 2. Generated Script
