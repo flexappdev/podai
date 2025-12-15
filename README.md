@@ -1,69 +1,39 @@
 # PodAI - Podcast Persona Architect
 
-PodAI is a sophisticated web application that transforms raw voice notes and audio recordings into professional podcast segments, witty monologues, or structured narratives using the power of Google's Gemini AI.
+PodAI is a web application that gives your voice a new personality. It transforms raw audio recordings into professional podcast segments, witty monologues, or structured narratives using Google's Gemini AI.
 
-## 🚀 Features
+![Landing Page](https://i.imgur.com/uX8H4qj.png)
 
-### 🎙️ Core Functionality
--   **Smart Transcription**: Instantly converts audio files (MP3, WAV, M4A) into verbatim text using the multimodal capabilities of `gemini-2.5-flash`.
--   **Persona Transformation**: Rewrites transcripts into distinct styles using `gemini-3-pro-preview` with advanced reasoning capabilities.
--   **Interactive Chat**: **(New)** Chat directly with the generated persona to ask follow-up questions or explore topics from the transcript in character.
+## Features
 
-### 🎭 Available Personas
-1.  **The Stand-Up**: Adds humor, punchlines, and observational comedy.
-2.  **The Analyst**: Structured, technical deep-dives with pros/cons.
-3.  **The Narrator**: Emotional, atmospheric storytelling (NPR style).
-4.  **The Provocateur**: High-energy, controversial "hot takes".
-5.  **The Essentialist**: Minimalist, actionable productivity advice.
-6.  **The Futurist**: Visionary takes connecting topics to AI and the future.
+- **Smart Transcription**: Instantly converts raw audio (MP3, WAV, M4A) into text using Gemini 2.5 Flash.
+- **Persona Transformation**: Rewrites your content into specific styles using Gemini 3 Pro:
+  - *The Stand-Up*: Comedy host style.
+  - *The Analyst*: Tech reviewer style.
+  - *The Narrator*: NPR-style storytelling.
+  - *The Provocateur*: High-energy debate.
+  - *The Essentialist*: Minimalist productivity guru.
+  - *The Futurist*: Sci-fi visionary.
+- **Interactive Chat**: Chat directly with the specific persona about the transcript content.
+- **Local History**: Saves your generations locally so you can revisit them later.
 
-### 🛠️ Tools & Utilities
--   **Local History**: Automatically saves your sessions to your browser's local storage so you never lose a generation.
--   **Folder Browsing**: Select a local folder to view and pick from multiple audio files instantly.
--   **Export Options**:
-    -   Download generated scripts as `.txt`.
-    -   Export your entire session history as JSON.
--   **Quick Actions**: Sticky footer for quick access to "Random History" and "Export Archive".
+## Screenshots
 
-## ⚡ Tech Stack
+### 1. Choose a Persona
+Select how you want your content to be reimagined.
+![Persona Selection](https://i.imgur.com/3Z4jX8a.png)
 
--   **Frontend**: React 19, TypeScript, Vite
--   **Styling**: Tailwind CSS, Lucide React (Icons)
--   **AI Integration**: Google GenAI SDK (`@google/genai`)
-    -   Transcription & Chat: `gemini-2.5-flash`
-    -   Creative Writing: `gemini-3-pro-preview` (Utilizing Thinking Config)
+### 2. Generated Script
+View the original transcript side-by-side with the transformed persona edition.
+![Generated Script](https://i.imgur.com/Kq7Z9aX.png)
 
-## 📦 Installation
+### 3. Chat with Persona
+Have a conversation with the specific persona about the content of your recording.
+![Chat Interface](https://i.imgur.com/4J9zX8b.png)
 
-1.  Clone the repository.
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-3.  Set up your API Key:
-    -   Get a Gemini API key from [Google AI Studio](https://aistudio.google.com/).
-    -   Ensure the environment variable `API_KEY` is available to the application.
-4.  Run the development server:
-    ```bash
-    npm run dev
-    ```
+## Tech Stack
 
-## 📖 Usage Guide
-
-1.  **Upload**: Drag and drop an audio file onto the upload zone, or use "Select Folder" to browse local files.
-2.  **Review**: Wait for transcription to complete and review the raw text.
-3.  **Select Persona**: Choose one of the 6 available personas to define the output style.
-4.  **Generate**: Watch as Gemini rewrites your content.
-5.  **Interact**:
-    -   **Script Tab**: Read and copy the generated monologue.
-    -   **Chat Tab**: Switch to the chat interface to discuss the content with the AI persona.
-6.  **Save/Export**: Use the "Export Script" button to download the result.
-
-## 📸 Screenshots
-
-![PodAI Interface](./screenshots/app-preview.png)
-*Engage in a conversation with the specific persona, context-aware of your transcript.*
-
----
-
-Built with ❤️ using Gemini API.
+- **Frontend**: React, Vite, TypeScript
+- **Styling**: Tailwind CSS
+- **AI**: Google GenAI SDK (@google/genai)
+- **Icons**: Lucide React
