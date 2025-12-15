@@ -1,0 +1,7 @@
+{
+  "name": "PodAI",
+  "description": "Transform your voice notes into professional podcast segments with distinct personas using Gemini AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
